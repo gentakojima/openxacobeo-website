@@ -15,7 +15,7 @@ about:
   flights: Santiago de Compostela está conectado a través del aeropuerto con la mayor parte de Europa, con casi 20 vuelos cada semana a Francia, Bélgica, Alemania, Suiza, Reino Unido, Irlanda y más. Consulta todos los vuelos disponibles en <a target="_blank" href="https://www.flightconnections.com/flights-to-santiago-de-compostela-scq">FlightConnections</a>.
 competition:
   title: Detalles de la competición
-  p1: El torneo está <a href="https://www.pdga.com/tour/event/55235">sancionado por la PDGA</a> y se regirá por las <a href="https://www.pdga .com/rules"><strong>Reglas y estándares de eventos de nivel B</strong></a>.
+  p1: El torneo está <a href="https://www.pdga.com/tour/event/55235">sancionado por la PDGA</a> y se regirá por las <a href="https://www.pdga .com/rules"><strong>Reglas y estándares de eventos de <em>tier</em> B</strong></a>.
   p2: Todas las <a href="https://coronavirus.sergas.gal/Contidos/Documents/525/Normativa_covid19_consolidada.pdf">indicaciones, reglamentos y restricciones</a> que aplican a este tipo de eventos, emitidas por la Xunta de Galicia en relación con el COVID-19, se seguirán fielmente.
   st1: Formato de torneo
   sp1: Se jugarán tres rondas de 18 hoyos. Los grupos saldrán desde el hoyo 1 a intervalos de tiempo regulares en horarios previamente programados. En caso de empate en el primer puesto, se jugará muerte súbita para decidir el ganador de cada categoría.
@@ -29,7 +29,7 @@ register:
   title: Registro
   p1: La inscripción y el pago de la cuota deben realizarse en <a target="_blank" href="https://www.discgolfscene.com/tournaments/II_Open_Xacobeo_2022/register">DiscGolfScene</a>.
   st1: Requisitos de registro
-  sp1: Al tratarse de un torneo de nivel B, es obligatorio ser miembro de PDGA en la actualidad.
+  sp1: Al tratarse de un torneo de <em>tier</em> B, es obligatorio ser miembro de PDGA en la actualidad.
   st2: Cuotas de registro
   st3: Número máximo de participantes
   sp3: 120 participantes máximo. La organización se reserva 12 comodines. Una vez superadas las 108 inscripciones, se creará una lista de espera para posteriores solicitudes.
