@@ -4,14 +4,14 @@ header:
 navigation:
   about: À propos
   competition: Compétition
-  course: Cours
+  course: Parcour
   register: S'inscrire
   contact: Contacter
 about:
   title: À propos de II Open Xacobeo
   p1: Le deuxième Xacobeo Disc Golf Open se tiendra pendant la Semaine Sainte 2022, entre le <strong>15 et le 17 avril</strong>, à <strong>Santiago de Compostela</strong>, une ville monumentale de Galice dont la vieille ville est un site du patrimoine mondial et attire des visiteurs et des pèlerins du monde entier.
   p2: Bien que la forme d'accès la plus populaire soit à pied, la ville dispose d'un bon accès routier et d'un aéroport à 14 km du centre et à seulement 7 km de Monte Do Gozo, où se trouve le parcours de disc golf.
-  p3: Nous espérons que cette deuxième édition sera aussi réussie que la précédente et sommes convaincus que les modifications apportées à la conception du parcours la rendront encore plus difficile.
+  p3: Nous espérons que cette deuxième édition sera aussi réussie que la précédente et sommes convaincus que les modifications apportées au parcours la rendront en fera un plus grand défi.
 competition:
   title: Détails du concours
   p1: Le tournoi est <a href="https://www.pdga.com/tour/event/55235">sanctionné par le PDGA</a> et se réunira <a href="https://www.pdga .com/rules"Règles et normes des événements de <strong>niveau B</strong></a>.
@@ -28,7 +28,7 @@ register:
   title: S'inscrire
   p1: L'inscription et le paiement des frais doivent être effectués sur <a target="_blank" href="https://www.discgolfscene.com/tournaments/II_Open_Xacobeo_2022/register">DiscGolfScene</a>.
   st1: Conditions d'inscription
-  sp1: En tant que tournoi de niveau B, il est obligatoire d'être membre en règle de PDGA.
+  sp1: En tant que tournoi de Tier-B, il est obligatoire d'être membre en règle de PDGA.
   st2: Frais d'inscription
   st3: Nombre maximum de participants
   sp3: 120 participants maximum. L'organisation réserve 12 jokers. Une fois les 108 inscriptions atteintes, une liste d'attente sera créée avec les candidatures suivantes.
