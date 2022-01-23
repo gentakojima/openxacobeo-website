@@ -345,6 +345,11 @@ a:focus {
     overflow-x: hidden;
 }
 
+.video-flights{
+  display:inline-block;
+  border-radius: 100%;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;

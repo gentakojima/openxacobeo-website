@@ -17,27 +17,27 @@ $(window).trigger("scroll");
 // Fullscreen video
 function dimensionFunction() {
 
-    if ($('video').height() <= $(window).height()) {
+    if ($('.video-bg').height() <= $(window).height()) {
 
-        $('video').height($(window).height());
-        $('video').width('auto');
+        $('.video-bg').height($(window).height());
+        $('.video-bg').width('auto');
 
     } else {
 
-        $('video').width($(window).width());
-        $('video').height('auto');
+        $('.video-bg').width($(window).width());
+        $('.video-bg').height('auto');
 
     }
 
-    if ($('video').width() <= $(window).width()) {
+    if ($('.video-bg').width() <= $(window).width()) {
 
-        $('video').width($(window).width());
-        $('video').height('auto');
+        $('.video-bg').width($(window).width());
+        $('.video-bg').height('auto');
 
     } else {
 
-        $('video').height($(window).height());
-        $('video').width('auto');
+        $('.video-bg').height($(window).height());
+        $('.video-bg').width('auto');
 
     }
 
@@ -46,7 +46,7 @@ function dimensionFunction() {
 $(window).resize(dimensionFunction);
 dimensionFunction();
 window.setTimeout(dimensionFunction, 500);
-$("video").get(0).onloadstart = dimensionFunction;
+$(".video-bg").get(0).onloadstart = dimensionFunction;
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
