@@ -22,5 +22,5 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["en", "es", "gl", "fr", "de"]
-exclude_from_localizations: ["javascript", "img", "css", "video", "js", "files"]
+exclude_from_localizations: ["javascript", "img", "css", "video", "js", "files", "favicon.ico"]
 default_locale_in_subfolder: true
