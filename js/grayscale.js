@@ -18,27 +18,27 @@ $(window).trigger("scroll");
 function dimensionFunction() {
 
     if ($('.video-bg').height() <= $(window).height()) {
-
         $('.video-bg').height($(window).height());
         $('.video-bg').width('auto');
-
     } else {
-
         $('.video-bg').width($(window).width());
         $('.video-bg').height('auto');
-
     }
 
     if ($('.video-bg').width() <= $(window).width()) {
-
         $('.video-bg').width($(window).width());
         $('.video-bg').height('auto');
-
     } else {
-
         $('.video-bg').height($(window).height());
         $('.video-bg').width('auto');
+    }
 
+    if ($('.video-bg').width() > $(window).width()) {
+      let howmuch = ( $('.video-bg').width() - $(window).width() ) / 4;
+      $('.video-bg').css("transform",`translateX(-${howmuch}px)`);
+    }
+    else{
+      $('.video-bg').css("transform","translateX(0)");
     }
 
 }
