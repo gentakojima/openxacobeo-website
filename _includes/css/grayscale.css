@@ -237,6 +237,32 @@ a:focus {
     opacity:0.3;
 }
 
+@media (hover: none) and (pointer: coarse) {
+
+    .caddybook .leftbutton, .caddybook .rightbutton{
+      display:none;
+    }
+
+    .caddybook .slider{
+      overflow-x: scroll;
+      transform: translateX(0) !important;
+    }
+
+    .caddybook .slider img:first-child{
+      margin-left: 15vw;
+    }
+
+    .caddybook .slider img:last-child{
+      margin-right: 15vw;
+    }
+
+    .caddybook {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+}
+
 .caddybook .slider{
     transition:transform 100ms linear;
     font-size:0;
