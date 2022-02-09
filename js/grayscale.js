@@ -14,6 +14,9 @@ $(window).scroll(function() {
 });
 $(window).trigger("scroll");
 
+window.window_format = "horizontal";
+if($(window).width()<$(window).height()) window.window_format = "vertical";
+
 // Fullscreen video
 function dimensionFunction() {
 
@@ -39,6 +42,23 @@ function dimensionFunction() {
     }
     else{
       $('.video-bg').css("transform","translateX(0)");
+    }
+
+    if(window.window_format == "horizontal" && $(window).width()<$(window).height()){
+      window.window_format = "vertical";
+      $(".video-bg").get(0).pause();
+      $(".video-bg-mp4").attr("src","/video/intro-bg-vertical.mp4");
+      $(".video-bg-webm").attr("src","/video/intro-bg-vertical.webm");
+      $(".video-bg").get(0).load();
+      $(".video-bg").get(0).play();
+    }
+    else if(window.window_format == "vertical" && $(window).width()>=$(window).height()){
+      window.window_format = "horizontal";
+      $(".video-bg").get(0).pause();
+      $(".video-bg-mp4").attr("src","/video/intro-bg.mp4");
+      $(".video-bg-webm").attr("src","/video/intro-bg.webm");
+      $(".video-bg").get(0).load();
+      $(".video-bg").get(0).play();
     }
 
 }
