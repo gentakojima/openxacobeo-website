@@ -67,6 +67,7 @@ $(window).resize(dimensionFunction);
 dimensionFunction();
 window.setTimeout(dimensionFunction, 500);
 $(".video-bg").get(0).onloadstart = dimensionFunction;
+$(".video-bg").get(0).onplay = dimensionFunction;
 $(function(){
   dimensionFunction();
 });
