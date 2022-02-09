@@ -16,6 +16,7 @@ $(window).trigger("scroll");
 
 window.window_format = "horizontal";
 if($(window).width()<$(window).height()) window.window_format = "vertical";
+window.first_run = true;
 
 // Fullscreen video
 function dimensionFunction() {
@@ -37,14 +38,14 @@ function dimensionFunction() {
     }
 
     if ($('.video-bg').width() > $(window).width()) {
-      let howmuch = ( $('.video-bg').width() - $(window).width() ) / 2;
+      let howmuch = ( $('.video-bg').width() - $(window).width() ) / 4;
       $('.video-bg').css("transform",`translateX(-${howmuch}px)`);
     }
     else{
       $('.video-bg').css("transform","translateX(0)");
     }
 
-    if(window.window_format == "horizontal" && $(window).width()<$(window).height()){
+    if(window.first_run == true || window.window_format == "horizontal" && $(window).width()<$(window).height()){
       window.window_format = "vertical";
       $(".video-bg").get(0).pause();
       $(".video-bg-mp4").attr("src","/video/intro-bg-vertical.mp4");
@@ -60,6 +61,8 @@ function dimensionFunction() {
       $(".video-bg").get(0).load();
       $(".video-bg").get(0).play();
     }
+
+    window.first_run = false;
 
 }
 
