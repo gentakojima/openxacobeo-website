@@ -37,7 +37,7 @@ function dimensionFunction() {
     }
 
     if ($('.video-bg').width() > $(window).width()) {
-      let howmuch = ( $('.video-bg').width() - $(window).width() ) / 4;
+      let howmuch = ( $('.video-bg').width() - $(window).width() ) / 2;
       $('.video-bg').css("transform",`translateX(-${howmuch}px)`);
     }
     else{
