@@ -62,10 +62,14 @@ function dimensionFunction() {
 
 }
 
+// Execute on window resize, on video ready, on document ready and after 500ms just in case
 $(window).resize(dimensionFunction);
 dimensionFunction();
 window.setTimeout(dimensionFunction, 500);
 $(".video-bg").get(0).onloadstart = dimensionFunction;
+$(function(){
+  dimensionFunction();
+});
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
