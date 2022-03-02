@@ -167,6 +167,17 @@ $(function() {
 });
 
 // Sponsorships Slider
+
+$.fn.randomize = function(selector){
+    (selector ? this.find(selector) : this).parent().each(function(){
+        $(this).children(selector).sort(function(){
+            return Math.random() - 0.5;
+        }).detach().appendTo(this);
+    });
+
+    return this;
+};
+
 window.SPONSORSHIP_OFFSET = 0;
 window.SPONSORSHIP_POSITION = 0;
 function repositionSponsorshipImages(immediate = false){
@@ -188,6 +199,9 @@ function immediateRepositionSponsorshipImages(immediate = false){
 $(function() {
   window.SPONSORSHIP_ELEMENTS = $(".sponsorships-slider img").length;
   window.SPONSORSHIP_INITIALPOSITION = 0;
+
+  // Randomize logos
+  $(".sponsorships-slider a").randomize();
 
   // Clone last one and first one
   let first = $(".sponsorships-slider a:first").clone();
