@@ -1,0 +1,33 @@
+<!-- Post Section -->
+<section id="post" class="text-center">
+    <div class="container content-section">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-left">
+              <h2>{{ page.title }}</h2>
+              <h4>{{ page.date | date_to_long_string: "ordinal", "US" }}</h4>
+              <div>{{ page.content }}</div>
+          </div>
+      </div>
+    </div>
+    <div class="content-section">
+      <div class="news-section">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center">{% t news.other %}</h2>
+            <div class="row display-flex text-left">
+                <div class="col-lg-6">
+                  <h3><a href="/{{ site.lang }}{{ page.previous.url }}">{{ page.previous.title }}</a></h3>
+                  <h4>{{ page.previous.date | date_to_long_string: "ordinal", "US" }}</h4>
+                  <div>{{ page.previous.excerpt }}</div>
+                </div>
+                <div class="col-lg-6">
+                  <h3><a href="/{{ site.lang }}{{ page.next.url }}">{{ page.next.title }}</a></h3>
+                  <h4>{{ page.next.date | date_to_long_string: "ordinal", "US" }}</h4>
+                  <div>{{ page.next.excerpt }}</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

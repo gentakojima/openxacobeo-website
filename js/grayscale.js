@@ -66,32 +66,13 @@ function dimensionFunction() {
 $(window).resize(dimensionFunction);
 dimensionFunction();
 window.setTimeout(dimensionFunction, 500);
-$(".video-bg").get(0).onloadstart = dimensionFunction;
-$(".video-bg").get(0).onplay = dimensionFunction;
+if($(".video-bg").length > 0){
+  $(".video-bg").get(0).onloadstart = dimensionFunction;
+  $(".video-bg").get(0).onplay = dimensionFunction;
+}
 $(function(){
   dimensionFunction();
 });
-
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top + 50
-        }, 1500, 'easeInOutExpo');
-        //history.pushState({}, "", $anchor.attr('href'));
-        event.preventDefault();
-        return false;
-    });
-});
-if(window.location.hash!=""){
-  let findid = window.location.hash;
-  if($(findid).length>0){
-    $('html, body').css({
-      scrollTop: $(findid).offset().top
-    });
-  }
-}
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
@@ -184,6 +165,72 @@ $(function() {
   }, 200);
 
 });
+
+// Sponsorships Slider
+window.SPONSORSHIP_OFFSET = 0;
+window.SPONSORSHIP_POSITION = 0;
+function repositionSponsorshipImages(immediate = false){
+  let local_offset = -SPONSORSHIP_OFFSET;
+  $(".sponsorships-slider").css("transform",`translateX(${local_offset}px)`);
+}
+
+function immediateRepositionSponsorshipImages(immediate = false){
+  let local_offset = -SPONSORSHIP_OFFSET;
+  $(".sponsorships-slider").css("transition","none");
+  window.setTimeout(function(){
+    $(".sponsorships-slider").css("transform",`translateX(${local_offset}px)`);
+    window.setTimeout(function(){
+      $(".sponsorships-slider").css("transition","300ms all ease");
+    },40);
+  },40);
+}
+
+$(function() {
+  window.SPONSORSHIP_ELEMENTS = $(".sponsorships-slider img").length;
+  window.SPONSORSHIP_INITIALPOSITION = 0;
+
+  // Clone last one and first one
+  let first = $(".sponsorships-slider a:first").clone();
+  let second = $(".sponsorships-slider a:first").next("a").clone();
+  let last = $(".sponsorships-slider a:last").clone();
+  $(first).appendTo($(".sponsorships-slider"));
+  $(second).appendTo($(".sponsorships-slider"));
+  $(last).prependTo($(".sponsorships-slider"));
+
+  window.setInterval(function(){
+    let imgwidth = $($(".sponsorships-slider img").get(0)).width();
+    let imgseparation = 40;
+    SPONSORSHIP_POSITION++;
+    if(SPONSORSHIP_POSITION > SPONSORSHIP_ELEMENTS){
+      SPONSORSHIP_POSITION = 0;
+      SPONSORSHIP_OFFSET = -SPONSORSHIP_INITIALPOSITION + SPONSORSHIP_POSITION * (imgwidth + imgseparation);
+      immediateRepositionSponsorshipImages();
+      window.setTimeout(function(){
+        SPONSORSHIP_POSITION = 1;
+        SPONSORSHIP_OFFSET = -SPONSORSHIP_INITIALPOSITION + SPONSORSHIP_POSITION * (imgwidth + imgseparation);
+        repositionSponsorshipImages();
+      }, 120);
+    }
+    else{
+      SPONSORSHIP_OFFSET = -SPONSORSHIP_INITIALPOSITION + SPONSORSHIP_POSITION * (imgwidth + imgseparation);
+      repositionSponsorshipImages();
+    }
+  }, 3000);
+
+  $(window).resize(function(){
+    let imgwidth = $($(".sponsorships-slider img").get(0)).width();
+    let imgseparation = 40;
+    window.SPONSORSHIP_INITIALPOSITION = (($(".sponsorships-slider-outer").width()/2 - imgwidth / 2) - imgseparation/2 ) - imgwidth - imgseparation;
+    SPONSORSHIP_OFFSET = -SPONSORSHIP_INITIALPOSITION + SPONSORSHIP_POSITION * (imgwidth + imgseparation);
+    immediateRepositionSponsorshipImages();
+  });
+
+  window.setTimeout(function(){
+    $(window).trigger("resize");
+  }, 200);
+
+});
+
 
 
 // Google Maps Scripts

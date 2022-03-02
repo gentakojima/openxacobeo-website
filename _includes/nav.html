@@ -5,7 +5,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="/{{ site.lang }}/#page-top">
                     <img src="/img/logo_dark.svg" alt="II Open Xacobeo" />
                 </a>
             </div>
@@ -15,22 +15,25 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="/{{ site.lang }}/#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">{% t navigation.about %}</a>
+                        <a class="page-scroll" href="/{{ site.lang }}/#news">{% t navigation.news %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#competition">{% t navigation.competition %}</a>
+                        <a class="page-scroll" href="/{{ site.lang }}/#about">{% t navigation.about %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#course">{% t navigation.course %}</a>
+                        <a class="page-scroll" href="/{{ site.lang }}/#competition">{% t navigation.competition %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#register">{% t navigation.register %}</a>
+                        <a class="page-scroll" href="/{{ site.lang }}/#course">{% t navigation.course %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">{% t navigation.contact %}</a>
+                        <a class="page-scroll" href="/{{ site.lang }}/#register">{% t navigation.register %}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/{{ site.lang }}/#contact">{% t navigation.contact %}</a>
                     </li>
                     <li class="hidden-xs">
                       <a class="dropdown-toggle language-selector" href="#lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="/img/lang_{{ site.lang }}.png" alt="{{ site.lang }}" /></a>

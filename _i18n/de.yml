@@ -7,6 +7,7 @@ navigation:
   course: Kurs
   register: anmelden
   contact: Kontakt
+  news: Nachricht
 about:
   title: Über II Open Xacobeo
   p1: Das zweite Xacobeo Disc Golf Open findet während der Karwoche 2022 zwischen dem <strong>15. und 17. April</strong> in <strong>Santiago de Compostela</strong> statt, einer monumentalen Stadt in Galicien, deren Altstadt ist zum Weltkulturerbe und zieht Besucher und Pilger aus aller Welt an.
@@ -14,6 +15,14 @@ about:
   p3: Wir hoffen, dass diese zweite Ausgabe genauso erfolgreich wird wie die vorherige, und sind zuversichtlich, dass die Optimierungen am Kursdesign sie noch herausfordernder machen werden.
   flights: Santiago de Compostela ist über Flughäfen mit den meisten Teilen Europas verbunden, mit fast 20 Flügen pro Woche nach Frankreich, Belgien, Deutschland, Schweiz, Großbritannien, Irland und mehr. Überprüfen Sie alle verfügbaren Flüge unter <a target="_blank" href="https://www.flightconnections.com/flights-to-santiago-de-compostela-scq">FlightConnections</a>.
   accommodation: Empfohlene Optionen für die Unterkunft sind&#58; <strong><a href="https://granhotellosabetos.com/">Gran Hotel Los Abetos</a></strong> (<a href="/files/losabetos.pdf"><em>siehe Special Angebot</em></a>) – ein komfortables und einladendes 4-Sterne-Hotel, fünf Gehminuten vom Golfplatz entfernt, <a href="https://www.benvidomontedogozo.com/">Albergue Benvido Monte Do Gozo</a> – ein Herberge in Monte Do Gozo selbst, umgeben von einem Disc-Golfplatz, und <a href="http://akelarrehotel.com/">Hotel Akelarre</a> – ein 1-Sterne-Hotel zehn Gehminuten vom Grünen entfernt.
+news:
+   title: Aktuelle Nachrichten
+   telegramm: Telegrammkanal
+   feed: RSS-Feed
+   other: Sonstige Neuigkeiten
+   goback: Zurück zur Hauptseite
+sponsorships:
+   title: Sponsoren
 competition:
   title: Wettbewerbs<wbr>details
   p1: Das Turnier ist <a href="https://www.pdga.com/tour/event/55235">von der PDGA sanktioniert</a> und trifft auf <a href="https://www.pdga.com/rules"><strong>Tier-B</strong>-Veranstaltungsregeln und -standards</a>.

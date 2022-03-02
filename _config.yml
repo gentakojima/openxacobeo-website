@@ -9,6 +9,7 @@ color:
   primary-dark: '#000000'
   links: '#219ab3'
   red: '#bc0000'
+  orange: '#FF5E13'
 
 # Footer settings
 footer: Compostela Disc Golf Club
@@ -20,6 +21,7 @@ permalink: pretty
 # Multilanguage
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-feed
 
 languages: ["en", "es", "gl", "fr", "de"]
 exclude_from_localizations: ["javascript", "img", "css", "video", "js", "files", "favicon.ico"]

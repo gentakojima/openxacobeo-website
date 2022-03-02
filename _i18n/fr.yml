@@ -2,11 +2,12 @@ header:
   title: II Open Xacobeo
   introtext: Du 15 au 17 avril 2022 — Saint Jacques de Compostelle, Espagne
 navigation:
-  about: À propos
+  about: Info
   competition: Compétition
   course: Parcour
   register: S'inscrire
   contact: Contacter
+  news: Nouvelles
 about:
   title: À propos de II Open Xacobeo
   p1: Le deuxième Xacobeo Disc Golf Open se tiendra pendant la Semaine Sainte 2022, entre le <strong>15 et le 17 avril</strong>, à <strong>Santiago de Compostela</strong>, une ville monumentale de Galice dont la vieille ville est un site du patrimoine mondial et attire des visiteurs et des pèlerins du monde entier.
@@ -14,6 +15,14 @@ about:
   p3: Nous espérons que cette deuxième édition sera aussi réussie que la précédente et sommes convaincus que les modifications apportées au parcours la rendront en fera un plus grand défi.
   flights: Saint-Jacques-de-Compostelle est reliée par aéroport à la plupart des régions d'Europe, avec près de 20 vols par semaine vers la France, la Belgique, l'Allemagne, la Suisse, le Royaume-Uni, l'Irlande et plus encore. Vérifiez tous les vols disponibles sur <a target="_blank" href="https://www.flightconnections.com/flights-to-santiago-de-compostela-scq">FlightConnections</a>.
   accommodation: Les options d'hébergement recommandées sont&# 58; <strong><a href="https://granhotellosabetos.com/">Gran Hotel Los Abetos</a></strong> (<a href="/files/losabetos.pdf"><em>voir le spécial offre</em></a>) — un hôtel 4 étoiles confortable et accueillant situé à cinq minutes à pied du parcours de disc golf, <a href="https://www.benvidomontedogozo.com/">Albergue Benvido Monte Do Gozo</a> — un auberge situé à Monte Do Gozo même, entouré par le parcours de disc golf, et <a href="http://akelarrehotel.com/">Hotel Akelarre</a> — un 1-étoilé hôtel situé à dix minutes à pied de la campagne.
+news:
+  title: Dernières nouvelles
+  telegram: canal de télégramme
+  feed: Flux RSS
+  other: Autres actualités
+  goback: Revenir à la page principale
+sponsorships:
+  title: Commanditaires
 competition:
   title: Détails du concours
   p1: Le tournoi est <a href="https://www.pdga.com/tour/event/55235">sanctionné par le PDGA</a> et se réunira <a href="https://www.pdga.com/rules">Règles et normes des événements de <strong>niveau B</strong></a>.

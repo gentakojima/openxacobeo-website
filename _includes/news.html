@@ -1,0 +1,29 @@
+    <!-- News Section -->
+    <section id="news" class=" text-center content-section">
+      <div class="news-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>{% t news.title %}</h2>
+                <div class="row display-flex text-left">
+                  {% for post in site.posts limit:4 %}
+                    <div class="col-lg-6">
+                      <h3><a href="/{{ site.lang }}{{ post.url }}">{{ post.title }}</a></h3>
+                      <h4>{{ post.date | date_to_long_string: "ordinal", "US" }}</h4>
+                      <div>{{ post.excerpt }}</div>
+                    </div>
+                  {% endfor %}
+                </div>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a target="_blank" href="/{{ site.lang }}/feed.xml" class="btn btn-orange btn-lg"><i class="fa fa-rss-square fa-fw"></i> <span class="network-name">{% t news.feed %}</span></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://t.me/+ToFEpUHlp2JiODY0" class="btn btn-default btn-lg"><i class="fa fa-send fa-fw"></i> <span class="network-name">{% t news.telegram %}</span></a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
