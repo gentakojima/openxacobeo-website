@@ -417,6 +417,21 @@ a:focus {
     }
 }
 
+.copaespana-logo img{
+  display:inline-block;
+  margin-top:40px;
+  margin-bottom:10px;
+  height:110px;
+}
+
+@media(min-width:767px) {
+
+  .copaespana-logo img{
+    height:200px;
+  }
+
+}
+
 .btn-circle {
     width: 70px;
     height: 70px;
