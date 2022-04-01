@@ -7,4 +7,4 @@ Our collaborator Albergue Monte do Gozo announces that players who wish to stay 
 
 <!-- more -->
 
-To access the offer, you must write to <a href="montedogozo@montedogozo.com">montedogozo@montedogozo.com</a> or call <a href="tel:+34 881255386">+34 881255386</a>, stating that you participate in the disc golf tournament.
+To access the offer, you must write to <a href="mailto:montedogozo@montedogozo.com">montedogozo@montedogozo.com</a> or call <a href="tel:+34 881255386">+34 881255386</a>, stating that you participate in the disc golf tournament.

@@ -7,4 +7,4 @@ O noso colaborador Albergue Monte do Gozo comunica que os xogadores que desexen 
 
 <!-- more -->
 
-Para acceder á oferta, debes escribir a <a href="montedogozo@montedogozo.com">montedogozo@montedogozo.com</a> ou chamar ao <a href="tel:+34 881255386">+34 881255386 </a>, indicando que participas no torneo de disc golf.
+Para acceder á oferta, debes escribir a <a href="mailto:montedogozo@montedogozo.com">montedogozo@montedogozo.com</a> ou chamar ao <a href="tel:+34 881255386">+34 881255386 </a>, indicando que participas no torneo de disc golf.
