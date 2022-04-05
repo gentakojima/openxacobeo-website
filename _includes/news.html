@@ -6,12 +6,16 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>{% t news.title %}</h2>
                 <div class="row display-flex text-left">
-                  {% for post in site.posts limit:4 %}
+                  {% assign counter = 0 %}
+                  {% for post in site.posts limit:6 %}
                     <div class="col-lg-6">
                       <h3><a href="/{{ site.lang }}{{ post.url }}">{{ post.title }}</a></h3>
                       <h4>{{ post.date | date_to_long_string: "ordinal", "US" }}</h4>
+                      {% if counter < 2 %}
                       <div>{{ post.excerpt }}</div>
+                      {% endif %}
                     </div>
+                    {% assign counter = counter | plus: 1 %}
                   {% endfor %}
                 </div>
                 <ul class="list-inline banner-social-buttons">
