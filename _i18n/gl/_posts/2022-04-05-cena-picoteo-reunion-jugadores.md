@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Snack dinner after the players' meeting"
+title:  "Cea de picoteo tras o encontro de xogadores"
 ---
 
-The participants in the Open Xacobeo will be able to enjoy a snack dinner after the players' meeting on Thursday, April 14, free of charge.
+Os participantes no Open Xacobeo poderán gozar dunha cea de picoteo despois do encontro de xogadores do xoves 14 de abril de xeito gratuíto.
 
-<!-- more -->
+<!-- máis -->
 
-Both the meeting and the dinner will be held in the Benvido cafeteria, just right in front of the hole 1. Typical products of Galician cuisine, dessert, water, wine and beer will be included.
+Tanto o encontro como a cea celebraranse na cafetería Benvido, fronte á saída do burato 1. Incluiranse produtos típicos da cociña galega, sobremesa, auga, viño e cervexa para acompañar.
 
-If you are going to attend the dinner with guests who are not registered in the tournament, you must notify the email <a href="mailto:td@openxacobeo.com">td@openxacobeo.com</a> before the 10th April and pay €19 for each extra guest before the players' meeting begins.
+Se vas asistir á cea con acompañantes que non estean inscritos no torneo, debes avisar ao correo electrónico <a href="mailto:td@openxacobeo.com">td@openxacobeo.com</a> antes do día 10 de abril e pagar 19 € por cada invitado extra antes de que comece o encontro de xogadores.
