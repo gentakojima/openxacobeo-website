@@ -3,6 +3,10 @@ layout: post
 title:  "Doubles Competition"
 ---
 
+Registration is open for the doubles competition, which will be held on April 14.
+
+<!-- more -->
+
 You can now [register for the doubles competition in Disc Golf Metrix](https://discgolfmetrix.com/2042930):
 
   * At least one of the players in the team must be registered in the main tournament to be able to participate.
