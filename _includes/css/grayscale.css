@@ -526,6 +526,29 @@ table.table{
     margin-bottom:2em;
 }
 
+table.table_schedule{
+    margin-top:-1em;
+}
+
+table.table tr.row_date th{
+  padding-top:15px;
+}
+
+table.table tr.row_date th, table.table tr.row_date td{
+  border-top:0;
+  border-bottom:1px solid white;
+}
+
+table.table tr.row_time th, table.table tr.row_time td{
+  border-top:0;
+  border-bottom:1px solid rgba(255,255,255,0.3);
+}
+
+table.table tr.row_time_last th, table.table tr.row_time_last td{
+  border-top:0;
+  border-bottom:0;
+}
+
 .competition-section {
     width: 100%;
     padding: 100px 0 80px 0;

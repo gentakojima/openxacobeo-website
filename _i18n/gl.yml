@@ -31,6 +31,18 @@ competition:
   sp1: Disputaranse tres roldas de 18 buratos. Os grupos sairán do burato 1 a intervalos de tempo regulares en horarios previamente programados. En caso de empate no primeiro posto disputarase a morte súbita para decidir o gañador de cada categoría.
   st2: Premios e Trofeos
   sp2: Concederanse premios en metálico en todas as categorías PRO. Entregaranse trofeos e outros premios aos gañadores das categorías AM e doutros concursos (dobres, CTPS, etc.).
+  timetable: Horarios
+  thursday14: Xoves 14
+  friday15: Venres 15
+  saturday16: Sábado 16
+  sunday17: Domingo 17
+  doubles: Competición de dobres
+  reunion: Reunión de xogadores
+  dinner: Cea
+  rounds: Roldas (saídas secuenciais)
+  distance: Competición de distancia
+  putters: Competición de putters
+  awards: Entrega de premios
 course:
   title: Campo do campeonato
   download: Descargar Caddy Book

@@ -31,6 +31,18 @@ competition:
   sp1: Three rounds of 18 holes will be played. Groups will tee off from hole 1 at regular time intervals at previously scheduled times. In the event of a tie for first place, sudden death will be played to decide the winner in each category.
   st2: Prizes and Trophies
   sp2: Cash prizes will be awarded in all PRO categories. Trophies and other prizes will be awarded to the winners of the AM categories and other competitions (doubles, CTPS, etc.).
+  timetable: Schedule
+  thursday14: Thursday 14
+  friday15: Friday 15
+  saturday16: Saturday 16
+  sunday17: Sunday 17
+  doubles: Doubles Competition
+  reunion: Welcome and Meetup
+  dinner: Dinner
+  rounds: Rounds (staggered starts)
+  distance: Distance Competition
+  putters: Putters Competition
+  awards: Awards Ceremony
 course:
   title: Championship Course
   download: Download Caddy Book

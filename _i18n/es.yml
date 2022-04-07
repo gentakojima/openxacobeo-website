@@ -31,6 +31,18 @@ competition:
   sp1: Se jugarán tres rondas de 18 hoyos. Los grupos saldrán desde el hoyo 1 a intervalos de tiempo regulares en horarios previamente programados. En caso de empate en el primer puesto, se jugará muerte súbita para decidir el ganador de cada categoría.
   st2: Premios y Trofeos
   sp2: Se otorgarán premios en efectivo en todas las categorías PRO. Se entregarán trofeos y otros premios a los ganadores de las categorías AM y otras competiciones (dobles, CTPS, etc.).
+  timetable: Horarios
+  thursday14: Jueves 14
+  friday15: Viernes 15
+  saturday16: Sábado 16
+  sunday17: Domingo 17
+  doubles: Competición de dobles
+  reunion: Reunión de jugadores
+  dinner: Cena
+  rounds: Rondas (salidas secuenciales)
+  distance: Competición de distancia
+  putters: Competición de putters
+  awards: Entrega de premios
 course:
   title: Campo del Campeonato
   download: Descargar Caddy Book
