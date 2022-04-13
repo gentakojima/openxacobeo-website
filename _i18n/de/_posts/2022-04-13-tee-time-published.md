@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Publicados los grupos de la Ronda 1"
+title:  "Round 1 tee times published"
 ---
 
 The groups for the first round are now available on the event website at PDGA.
