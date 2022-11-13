@@ -1,12 +1,12 @@
 # Site settings
-title: II Open Xacobeo — Disc Golf Open
+title: III Open Xacobeo — Disc Golf Open
 email: td@openxacobeo.com
 url: https://www.openxacobeo.com/
-description: "April 15-17, 2022 — Santiago de Compostela, Spain"
+description: "April 29 - May 1, 2023 — Santiago de Compostela, Spain"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#000000'
+  primary-dark: '#0d2538'
   links: '#219ab3'
   red: '#bc0000'
   orange: '#FF5E13'
@@ -23,6 +23,6 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-feed
 
-languages: ["en", "es", "gl", "fr", "de"]
+languages: ["en"] #, "es", "gl", "fr", "de"]
 exclude_from_localizations: ["javascript", "img", "css", "video", "js", "files", "favicon.ico"]
 default_locale_in_subfolder: true

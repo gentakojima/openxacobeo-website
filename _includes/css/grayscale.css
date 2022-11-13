@@ -213,7 +213,7 @@ a:focus {
     left: 0;
     top:0;
     right: auto;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(90deg, rgba(13,37,56,1) 0%, rgba(13,37,56,0) 100%);
     position:absolute;
     z-index:1;
 }
@@ -221,7 +221,7 @@ a:focus {
 .caddybook::after{
     left: auto;
     right: 0;
-    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(270deg, rgba(13,37,56,1) 0%, rgba(13,37,56,0) 100%);
 }
 
 .caddybook .leftbutton, .caddybook .rightbutton{
@@ -750,7 +750,7 @@ hr{
     left: 0;
     top:0;
     right: auto;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(90deg, rgba(13,37,56,1) 0%, rgba(13,37,56,0) 100%);
     position:absolute;
     z-index:1;
 }
@@ -758,7 +758,7 @@ hr{
 .sponsorships-slider-outer::after{
     left: auto;
     right: 0;
-    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(270deg, rgba(13,37,56,1) 0%, rgba(13,37,56,0) 100%);
 }
 
 .sponsorships-slider{
