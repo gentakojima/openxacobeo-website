@@ -10,11 +10,11 @@ navigation:
   contact: Contact
 about:
   title: About III Open Xacobeo
-  p1: The Third Xacobeo Disc Golf Open will be held during Holy Week 2023, <strong>from 29th April to 1st May 2023</strong>, in <strong>Santiago de Compostela</strong>, a monumental city in Galicia whose old town is a World Heritage Site and attracts visitors and pilgrims from all over the world.
+  p1: The Third Xacobeo Disc Golf Open will be held <strong>from 29th April to 1st May 2023</strong>, in <strong>Santiago de Compostela</strong>, a monumental city in Galicia whose old town is a World Heritage Site and attracts visitors and pilgrims from all over the world.
   p2: Although the most popular form of access is on foot, the city is well communicated at national and international level and an airport 14 kms from the centre and only 7 kms from Monte Do Gozo, where the disc golf course is located.
-  p3: We hope this third edition will be as successful as the previous ones, and we are confident that the tweaks to the course design will make it even more challenging.
+  p3: "We hope this third edition will be as successful as the previous ones. This year, there will be two different course designs: One adapted for FPO, MA4, and MJ18, and another one more challenging for the other categories."
   flights: Santiago de Compostela is connected through airport to most parts of Europe, with nearly 20 flights every week to France, Belgium, Germany, Switzerland, UK, Ireland and more. Check all the available flights at <a target="_blank" href="https://www.flightconnections.com/flights-to-santiago-de-compostela-scq">FlightConnections</a>.
-  accommodation: Recommended options for accommodation are&#58; <strong><a href="https://granhotellosabetos.com/">Gran Hotel Los Abetos</a></strong> (<a href="/files/losabetos.pdf"><em>see the special offer</em></a>) — a comfortable and welcoming 4-star hotel located five minutes walk from the disc golf course, <a href="https://www.benvidomontedogozo.com/">Albergue Benvido Monte Do Gozo</a> — a hostel located within Monte Do Gozo itself, surrounded by the disc golf course, and <a href="http://akelarrehotel.com/">Hotel Akelarre</a> — a 1-star hotel located ten minutes walk.
+  accommodation: Recommended options for accommodation are&#58; <strong><a href="https://granhotellosabetos.com/">Gran Hotel Los Abetos</a></strong> — a comfortable and welcoming 4-star hotel located five minutes walk from the disc golf course, <a href="https://www.benvidomontedogozo.com/">Albergue Benvido Monte Do Gozo</a> — a hostel located within Monte Do Gozo itself, surrounded by the disc golf course, and <a href="http://akelarrehotel.com/">Hotel Akelarre</a> — a 1-star hotel located ten minutes walk.
 news:
   title: Latest News
   telegram: Telegram Channel
@@ -31,10 +31,10 @@ competition:
   st2: Prizes and Trophies
   sp2: Cash prizes will be awarded in all PRO categories. Trophies and other prizes will be awarded to the winners of the AM categories and other competitions (doubles, CTPS, etc.).
   timetable: Schedule
-  thursday14: Thursday 14
-  friday15: Friday 15
-  saturday16: Saturday 16
-  sunday17: Sunday 17
+  thursday14: Friday 28
+  friday15: Saturday 29
+  saturday16: Sunday 30
+  sunday17: Monday 1
   doubles: Doubles Competition
   reunion: Welcome and Meetup
   dinner: Dinner
