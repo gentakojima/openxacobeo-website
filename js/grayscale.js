@@ -77,12 +77,12 @@ $(function(){
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
+        event.preventDefault();
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href').substring($anchor.attr('href').indexOf("#"))).offset().top + 50
-        }, 1500, 'easeInOutExpo');
-        //history.pushState({}, "", $anchor.attr('href'));
-        event.preventDefault();
+            scrollTop: Math.floor($($anchor.attr('href').substring($anchor.attr('href').indexOf("#"))).offset().top + 50)
+        }, 1000);
+        history.pushState({}, "", $anchor.attr('href'));
         return false;
     });
 });
