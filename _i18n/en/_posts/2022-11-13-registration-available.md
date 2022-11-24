@@ -7,4 +7,4 @@ Registration is available now on <a href="https://www.discgolfscene.com/tourname
 
 <!-- more -->
 
-Basic information of the event is available now. More information is coming during December 2022.
+Basic information of the event is available now. More information is coming in Q1 2023.

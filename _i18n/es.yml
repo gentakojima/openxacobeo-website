@@ -1,6 +1,6 @@
 header:
-  title: II Open Xacobeo
-  introtext: Entre el 15 y el 17 de abril de 2022 — Santiago de Compostela, Spain
+  title: III Open Xacobeo
+  introtext: Entre el 29 de abril y el 1 de mayo de 2023 — Santiago de Compostela, Spain
 navigation:
   about: Info
   competition: Competición
@@ -9,12 +9,12 @@ navigation:
   contact: Contacto
   news: Noticias
 about:
-  title: Sobre el II Open Xacobeo
-  p1: El II Open Xacobeo Disc Golf se celebrará durante la Semana Santa de 2022, entre el <strong>15 y el 17 de abril</strong>, en <strong>Santiago de Compostela</strong>, ciudad monumental de Galicia cuyo casco antiguo es Patrimonio de la Humanidad y atrae a visitantes y peregrinos de todo el mundo.
+  title: Sobre el III Open Xacobeo
+  p1: El tercer Open Xacobeo Disc Golf se celebrará entre el <strong>29 de abril y el 1 de mayo de 2023</strong>, en <strong>Santiago de Compostela</strong>, ciudad monumental de Galicia cuyo casco antiguo es Patrimonio de la Humanidad y atrae a visitantes y peregrinos de todo el mundo.
   p2: Aunque la forma de acceso más popular es a pie, la ciudad cuenta con buenos accesos por carretera y un aeropuerto a 14 km del centro y a solo 7 km del Monte Do Gozo, donde se encuentra el campo de disc golf.
-  p3: Esperamos que esta segunda edición sea tan exitosa como la anterior, y confiamos en que los cambios en el diseño del campo lo hagan aún más desafiante.
+  p3: Esperamos que esta segunda edición sea tan exitosa como la anterior. Como novedad, este año las categorías FPO, MA4 y MJ18 tendrán un diseño de campo diferente.
   flights: Santiago de Compostela está conectado a través del aeropuerto con la mayor parte de Europa, con casi 20 vuelos cada semana a Francia, Bélgica, Alemania, Suiza, Reino Unido, Irlanda y más. Consulta todos los vuelos disponibles en <a target="_blank" href="https://www.flightconnections.com/flights-to-santiago-de-compostela-scq">FlightConnections</a>.
-  accommodation: Las opciones recomendadas de alojamiento son&#58; <strong><a href="https://granhotellosabetos.com/">Gran Hotel Los Abetos</a></strong> (<a href="/files/losabetos.pdf"><em>ver oferta especial</em></a>) — un cómodo y acogedor hotel de 4 estrellas ubicado a cinco minutos a pie del campo de disc golf, <a href="https://www.benvidomontedogozo.com/">Albergue Benvido Monte Do Gozo</a> — un albergue ubicado dentro de Monte Do Gozo, rodeado por el campo de disc golf, y <a href="http://akelarrehotel.com/">Hotel Akelarre</a> — un hotel de 1 estrella situado a diez minutos andando.
+  accommodation: Las opciones recomendadas de alojamiento son&#58; <strong><a href="https://granhotellosabetos.com/">Gran Hotel Los Abetos</a></strong> — un cómodo y acogedor hotel de 4 estrellas ubicado a cinco minutos a pie del campo de disc golf, <a href="https://www.benvidomontedogozo.com/">Albergue Benvido Monte Do Gozo</a> — un albergue ubicado dentro de Monte Do Gozo, rodeado por el campo de disc golf, y <a href="http://akelarrehotel.com/">Hotel Akelarre</a> — un hotel de 1 estrella situado a diez minutos andando.
 news:
   title: Últimas noticias
   telegram: Canal de Telegram
@@ -25,17 +25,16 @@ sponsorships:
   title: Colaboran
 competition:
   title: Detalles de la competición
-  p1: El torneo está <a href="https://www.pdga.com/tour/event/55235">sancionado por la PDGA</a> y se regirá por las <a href="https://www.pdga.com/rules"><strong>Reglas y estándares de eventos de <em>tier</em> B</strong></a>.
-  p2: Todas las <a href="https://coronavirus.sergas.gal/Contidos/Documents/525/Normativa_covid19_consolidada.pdf">indicaciones, reglamentos y restricciones</a> que aplican a este tipo de eventos, emitidas por la Xunta de Galicia en relación con el COVID-19, se seguirán fielmente.
+  p1: El torneo está <a href="https://www.pdga.com/tour/event/64451">sancionado por la PDGA</a> y se regirá por las <a href="https://www.pdga.com/rules"><strong>Reglas y estándares de eventos de <em>tier</em> B</strong></a>.
   st1: Formato de torneo
   sp1: Se jugarán tres rondas de 18 hoyos. Los grupos saldrán desde el hoyo 1 a intervalos de tiempo regulares en horarios previamente programados. En caso de empate en el primer puesto, se jugará muerte súbita para decidir el ganador de cada categoría.
   st2: Premios y Trofeos
   sp2: Se otorgarán premios en efectivo en todas las categorías PRO. Se entregarán trofeos y otros premios a los ganadores de las categorías AM y otras competiciones (dobles, CTPS, etc.).
   timetable: Horarios
-  thursday14: Jueves 14
-  friday15: Viernes 15
-  saturday16: Sábado 16
-  sunday17: Domingo 17
+  thursday14: Viernes 28
+  friday15: Sábado 29
+  saturday16: Domingo 30
+  sunday17: Lunes 1
   doubles: Competición de dobles
   reunion: Reunión de jugadores
   dinner: Cena
@@ -45,14 +44,15 @@ competition:
   awards: Entrega de premios
 course:
   title: Campo del Campeonato
-  download: Descargar Caddy Book
+  download: Descargar Caddy Book (viejo 2022)
   videos: Ver videos de sobrevuelos
+  note: "Aviso: Este es el caddy book del II Open Xacobeo. El campo de 2023 contendrá algunas diferencias y también habrá un diseño de campo diferente para las categorías FPO, MA4 y MJ18."
 register:
   title: Registro
-  p1: La inscripción y el pago de la cuota deben realizarse en <a target="_blank" href="https://www.discgolfscene.com/tournaments/II_Open_Xacobeo_2022/register">DiscGolfScene</a>.
+  p1: La inscripción y el pago de la cuota deben realizarse en <a target="_blank" href="https://www.discgolfscene.com/tournaments/III_Open_Xacobeo_2023/register">DiscGolfScene</a>.
   st1: Requisitos de registro
   sp1: No es obligatorio ser miembro de PDGA, aunque es recomendable. La admisión en cada categoría se rige por <a target="_blank" href="https://www.pdga.com/divisions#amateur">las normas de la PDGA</a>.
-  st2: Cuotas de registro
+  st2: Cuotas de inscripción
   st3: Número máximo de participantes
   sp3: 120 participantes máximo. La organización se reserva 12 <em>wildcards</em>. Una vez superadas las 108 inscripciones, se creará una lista de espera para posteriores solicitudes.
 contact:
