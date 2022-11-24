@@ -74,6 +74,27 @@ $(function(){
   dimensionFunction();
 });
 
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top + 50
+        }, 1500, 'easeInOutExpo');
+        //history.pushState({}, "", $anchor.attr('href'));
+        event.preventDefault();
+        return false;
+    });
+});
+if(window.location.hash!=""){
+  let findid = window.location.hash;
+  if($(findid).length>0){
+    $('html, body').css({
+      scrollTop: $(findid).offset().top
+    });
+  }
+}
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
