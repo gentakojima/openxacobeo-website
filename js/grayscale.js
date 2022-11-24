@@ -86,14 +86,6 @@ $(function() {
         return false;
     });
 });
-if(window.location.hash!=""){
-  let findid = window.location.hash;
-  if($(findid).length>0){
-    $('html, body').css({
-      scrollTop: $(findid).offset().top
-    });
-  }
-}
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
