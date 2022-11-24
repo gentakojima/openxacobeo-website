@@ -10,7 +10,6 @@ body {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: {{ site.color.primary-dark }};
-    overflow-x: hidden;
 }
 
 html {
