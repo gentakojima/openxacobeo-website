@@ -80,7 +80,7 @@ $(function() {
         event.preventDefault();
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: Math.floor($($anchor.attr('href').substring($anchor.attr('href').indexOf("#"))).offset().top + 50)
+            scrollTop: Math.floor($($anchor.attr('href').substring($anchor.attr('href').indexOf("#"))).offset().top - 50)
         }, 1000);
         history.pushState({}, "", $anchor.attr('href'));
         return false;
