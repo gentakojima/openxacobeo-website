@@ -79,8 +79,10 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         event.preventDefault();
         var $anchor = $(this);
+        var scrollPosition = Math.floor($($anchor.attr('href').substring($anchor.attr('href').indexOf("#"))).offset().top + 80);
+        if(scrollPosition<200) scrollPosition = 0;
         $('html, body').stop().animate({
-            scrollTop: Math.floor($($anchor.attr('href').substring($anchor.attr('href').indexOf("#"))).offset().top + 80)
+            scrollTop: scrollPosition
         }, 1000);
         history.pushState({}, "", $anchor.attr('href'));
         return false;
