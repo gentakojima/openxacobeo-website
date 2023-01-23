@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ofertas especiais en Hotel Akelarre e Albergue Monte do Gozo"
+title:  "Special offers at Hotel Akelarre and Albergue Monte do Gozo"
 ---
 
 The <a href="http://akelarrehotel.com/">Hotel Akelarre</a> and the <a href="https://www.montedogozo.com/">Albergue Monte Do Gozo</a> offer special accommodation rates for tournament participants.
