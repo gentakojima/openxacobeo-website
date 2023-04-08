@@ -117,6 +117,26 @@ $("a").mouseup(function(){
     $(this).blur();
 });
 
+function prevImage(){
+  let img = $(".caddybook-modal img");
+  img_url = img.attr("src");
+  img_number = parseInt(img_url.substring(img_url.lastIndexOf("-")+1,img_url.lastIndexOf(".")));
+  if(img_number>0){
+    img_number--;
+    img.attr("src",img_url.substring(0,img_url.lastIndexOf("-")+1)+img_number+".jpg");
+  }
+}
+
+function nextImage(){
+  let img = $(".caddybook-modal img");
+  img_url = img.attr("src");
+  img_number = parseInt(img_url.substring(img_url.lastIndexOf("-")+1,img_url.lastIndexOf(".")));
+  if(img_number<22){
+    img_number++;
+    img.attr("src",img_url.substring(0,img_url.lastIndexOf("-")+1)+img_number+".jpg");
+  }
+}
+
 // Slider
 window.CADDYBOOK_OFFSET = 0;
 window.CADDYBOOK_POSITION = 0;
@@ -169,10 +189,17 @@ $(function() {
     $(".caddybook-modal").addClass("opened");
   });
 
-  $(".caddybook-modal i").click(function(){
-    $(".caddybook-modal").removeClass("opened");
+  $(".caddybook-modal .fa-arrow-left").click(function(){
+    prevImage();
   });
 
+  $(".caddybook-modal .fa-arrow-right").click(function(){
+    nextImage();
+  });
+
+  $(".caddybook-modal .fa-times").click(function(){
+    $(".caddybook-modal").removeClass("opened");
+  });
   hideShowArrows();
 
   window.setTimeout(function(){

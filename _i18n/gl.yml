@@ -45,10 +45,10 @@ competition:
   putters: Competición de putters
   awards: Entrega de premios
 course:
-  title: Campo do campeonato
-  download: Descargar Caddy Book (vello 2022)
-  videos: Mira Video Flyovers
-  note: "Aviso: Este é o caddy book do II Open Xacobeo. O campo de 2023 terá algunhas diferenzas e tamén haberá un deseño de campo distinto para as categorías FPO, MA4 e MJ18."
+  titlempo: Campo do Campeonato (MPO/MA1/MP40/MP50)
+  titlefpo: Campo do Campeonato (FPO/MA4)
+  download: Descargar Caddy Book
+  videos: Mira video flyovers
 register:
   title: Rexistro
   p1: O rexistro e o pago da taxa debe realizarse en <a target="_blank" href="https://www.discgolfscene.com/tournaments/III_Open_Xacobeo_2023/register">DiscGolfScene</a>.

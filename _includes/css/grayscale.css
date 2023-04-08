@@ -240,6 +240,24 @@ a:focus {
     background: linear-gradient(270deg, rgba(13,37,56,1) 0%, rgba(13,37,56,0) 100%);
 }
 
+#course-fpo .caddybook::before{
+    background: linear-gradient(90deg, rgba(13,56,54,1) 0%, rgba(13,56,54,0) 100%);
+} 
+
+#course-fpo .caddybook::after{
+    background: linear-gradient(270deg, rgba(13,56,54,1) 0%, rgba(13,56,54,0) 100%);
+}
+
+#course{
+    padding-top: 180px;
+    padding-bottom:30px;
+}
+
+#course-fpo{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
 .caddybook .leftbutton, .caddybook .rightbutton{
     position:absolute;
     top:50%;
@@ -349,7 +367,7 @@ a:focus {
   align-self: center;
 }
 
-.caddybook-modal i{
+.caddybook-modal > i{
   font-size: 60px;
   position: absolute;
   right:10px;
@@ -357,6 +375,22 @@ a:focus {
   cursor:pointer;
   z-index:9001;
   text-shadow: 0 0 10px black;
+}
+
+.caddybook-modal div.leftbutton{
+    position:absolute;
+    left:0;
+    top:50%;
+    font-size:60px;
+    cursor: pointer;
+}
+
+.caddybook-modal div.rightbutton{
+    position:absolute;
+    right:0;
+    top:50%;
+    font-size:60px;
+    cursor: pointer;
 }
 
 .intro {
@@ -787,4 +821,8 @@ hr{
   margin:20px;
   max-width:80vw;
   width:400px;
+}
+
+#course-fpo{
+    background:rgb(13,56,54);
 }

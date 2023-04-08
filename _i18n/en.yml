@@ -45,10 +45,10 @@ competition:
   putters: Putters Competition
   awards: Awards Ceremony
 course:
-  title: Championship Course
-  download: Download Caddy Book (OLD 2022)
+  titlempo: Championship Course (MPO/MA1/MP40/MP50)
+  titlefpo: Championship Course (FPO/MA4)
+  download: Download Caddy Book
   videos: Watch Flyovers
-  note: "Note: This is the old caddy book from the II Open Xacobeo. The 2023 course will feature some differences and there will be also a new/modified layout for FPO, MA4 and MJ18 categories."
 register:
   title: Register
   p1: Registration and payment of the fee must be made at <a target="_blank" href="https://www.discgolfscene.com/tournaments/III_Open_Xacobeo_2023/register">DiscGolfScene</a>.
