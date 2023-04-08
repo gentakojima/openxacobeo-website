@@ -383,6 +383,7 @@ a:focus {
     top:50%;
     font-size:60px;
     cursor: pointer;
+    text-shadow: 0 0 10px black;
 }
 
 .caddybook-modal div.rightbutton{
@@ -391,6 +392,7 @@ a:focus {
     top:50%;
     font-size:60px;
     cursor: pointer;
+    text-shadow: 0 0 10px black;
 }
 
 .intro {
